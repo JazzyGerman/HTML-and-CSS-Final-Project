@@ -1,0 +1,47 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black; 
+    font-size: 12pt; 
+    background: none; 
+    border: none; 
+    text-shadow: none; 
+    box-shadow: none; 
+}
+
+body {
+    background-color: white; 
+    width: 100%; 
+}
+
+
+header, section, article, aside, footer, p, h1, h2, h3, ul, li {
+    display: block;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+
+img, nav {
+    display: none; 
+}
+
+
+a {
+    color: black; 
+    text-decoration: underline; 
+    margin: 0;
+}
+
+
+.grid-view, .row {
+    display: block; 
+    width: 100%;
+}
+
+script {
+    display: none;
+}

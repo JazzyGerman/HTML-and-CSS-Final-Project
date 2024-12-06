@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="guitars, acoustic guitar, electric guitar, types of guitars">
+    <meta name="description" content="An overview of different types of guitars, including acoustic and electric guitars.">
+    <link rel="stylesheet" href="css/screen.css" media="screen">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>Types of Guitars</title>
+</head>
+<body class="content">
+    <header class="title">
+        <h1>Guitar Resources</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Guitar">Wikipedia</a></li>
+                <li><a href="https://www.ultimate-guitar.com/">Ultimate Guitar - Guitar Tabs</a></li>
+                <li><a href="https://www.guitarworld.com/">Guitar World - Latest Guitar News!</a></li>
+                <li><a href="https://www.americanmusical.com/">American Musical - Buy your first Guitar!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Types of Guitars</h2>
+    <section class="grid-view">
+        <h3>Acoustic Guitar</h3>
+        <article>
+            <p>The acoustic guitar is wood string instrument with a hollow body and a single hole that strings go over. The vibrations of the strings echo through the body of the guitar to create warm and full sounds. This is a popular instrument for solo artists, country artists, classical guitarists, and more!</p>
+        </article>
+            <img src="media/acousticguitar.jpg" alt="Acoustic guitar">
+    </section>
+
+    <section class="grid-view">
+        <h3>Electric Guitar</h3>
+        <article>
+            <p>The electric guitar is a solid body instrument that has magnetic electronics called pick-ups. These send the vibrations of the strings through the pickups into a digital format and then that signal is played through a amplifier. Its common to add additional effects to this signal such as distortion, reverb, or delay. This is a excellent instrument for rock artists, metal bands, and shredders all over the world!</p>
+        </article>
+        <img src="media/electricGuitar.jpg" alt="Electric guitar">
+    </section>
+    
+    <section class="grid-view">
+        <h3>Banjo</h3>
+        <article>
+            <p>While not a classically defined "guitar", the banjo is a popular stringed instrument amoungst folk, bluegrass, and country musicians. With a thin membrane stretched over its body similar to a snare drum, it offers a unique "twangy" sound that no other instrument offers.</p>
+        </article>
+        <img src="media/banjo.png" alt="banjo">
+    </section>
+    
+    <section class="grid-view">
+        <h3>Bass Guitar</h3>
+        <article>
+            <p>Typically with 4 strings, the bass guitar is the lowest-pitched string instrument of the guitar family. This guitar is designed to help drive the groove with the drummer. You'll find this guitar is virtually all styles of music!</p>
+        </article>
+        <img src="media/bass.jpg" alt="Bass guitar">
+    </section>
+    
+    <aside class="extra">
+        <h1>Trivia!</h1>
+        <h3>When was the first guitar made?</h3>
+        <button onclick="toggleVisibility()">Click to Reveal</button>
+        <p id="didYouKnow" style="display: none;">The first known documented origins of the guitar was likely from the 16th century in Spain.</p>
+    </aside>
+    
+    <script>
+        function toggleVisibility() {
+            var pElement = document.getElementById("didYouKnow");
+            if (pElement.style.display === "none") {
+                pElement.style.display = "block"; 
+            } else {
+                pElement.style.display = "none"; 
+            }
+        }
+    </script>
+
+    <div class="icon-bar">
+        <p>
+        <a href="https://lisabalbach.com/bauer44/assignments.html"><i class="fa fa-home"></i></a>
+        <a href="https://www.youtube.com/@FallBreakShatter"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.instagram.com/jazzygerman/"><i class="fa fa-instagram"></i></a></p>
+    </div>
+
+
+    <footer class="contact">
+        &copy; Spencer Bauer 2024
+    </footer>
+
+</body>
+</html>
